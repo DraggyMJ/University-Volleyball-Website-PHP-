@@ -1,0 +1,114 @@
+div.banner {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+img.image {
+    display: block;
+    float: left;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(0.5);
+}
+
+div.title h2 {
+    color: white;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+div.table {
+    display: block;
+    height: auto;
+}
+
+
+table.event {
+    clear: both;
+    width: 80%;
+    height: auto;
+}
+
+table.event, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    line-height: 250%;
+    margin-right: auto;
+}
+
+th.design {
+    background-color: #191970;
+    color:white;
+}
+
+a.eventLink,a.eventLink:visited,a.eventLink:link {
+    text-decoration: none;
+    color:darkblue;
+}
+
+a.eventLink:hover {
+    text-decoration: none;
+    color:blue;
+}
+
+table.event th a.order,table.event th a.order:visited,table.event th a.order:link {
+    color: black;
+    text-decoration: none;
+}
+
+table.event th a.order:hover{
+    text-decoration: underline;
+}
+
+input.deleteBox[type="submit"] {
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    cursor: pointer;
+    color:darkblue;
+}
+
+input.deleteBox[type="submit"]:hover {
+    color:blue;
+}
+
+input.search[type="text"] {
+    width: 60%;
+    line-height: 200%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 100%;
+    outline: none;
+    margin-left: 5%;
+}
+
+input.search[type="text"]:focus {
+    border: 3px solid black;
+}
+
+input.search1[type="text"] {
+    width: 60%;
+    line-height: 200%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 100%;
+    outline: none;
+    margin-left: 5%;
+    margin-bottom: -1%;
+}
+
+input.search1[type="text"]:focus {
+    border: 3px solid black;
+}

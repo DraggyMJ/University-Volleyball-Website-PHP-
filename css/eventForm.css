@@ -1,0 +1,230 @@
+div.title1 h1 {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 41.1%;
+    margin-right: 41.1%;
+}
+
+div.title2 h1 {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 44%;
+    margin-right: 44%;
+}
+
+div.title3 h1 {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 41%;
+    margin-right: 41%;
+}
+
+div.title4 h1 {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 38.4%;
+    margin-right: 38.4%;
+}
+
+div.table {
+    display: block;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(107,107,107,0.7) 5px 5px 20px;
+}
+
+div.table form {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+div.table table.delete{
+    width: 80%;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+div.table table.delete tr td {
+    font-size: 17px;
+    line-height: 250%;
+}
+
+div.table table.delete tr td.a {
+    width: 20%;
+}
+
+div.table table.delete tr td.b {
+    width: 60%;
+}
+
+div.table table.delete tr td.small_title{
+    font-weight: bold;
+}
+
+div.table form table{
+    width: 100%;
+}
+
+div.table form table tr td {
+    font-size: 17px;
+    line-height: 250%;
+}
+
+div.table table tr td.small_title{
+    font-weight: bold;
+}
+
+div.table input.text {
+    width: 52%;
+    line-height: 120%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 90%;
+    outline: none;
+}
+
+div.table textarea.desc {
+    width: 80%;
+    height: 150px;
+    line-height: 120%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 90%;
+    outline: none;
+    resize: none;
+    font-family: Verdana, sans-serif;
+}
+
+div.table input[type=submit],div.table   input[type=button] {
+    height: 6%;
+    font-size: 100%;
+    background-color: #00728b;
+    color: white;
+    border: #002929 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+div.table input[type=button] {
+    width: 10%;
+}
+
+div.table input[type=submit] {
+    width: 20%;
+}
+
+div.table input[type=submit]:hover,div.table input[type=button]:hover {
+    background-color: #004858;
+    text-decoration: none;
+}
+
+div.table input.text[type=text]:focus, div.table input.text[type=date]:focus, div.table input.text[type=password]:focus {
+    border: 3px solid black;
+}
+
+div.error {
+    color: red;
+}
+
+div.error h4.nameEmpty {
+    display: none;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+div.error h4.nameMore {
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.error h4.nameInvalid{
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.error h4.nameExist{
+    display: none;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+div.error h4.dateEmpty{
+    display: none;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+div.error h4.dateYear{
+    display: none;
+    margin-left: -3%;
+    margin-right: -3%;
+}
+
+div.error h4.dateMonth{
+    display: none;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+div.error h4.dateDay {
+    display: none;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+div.error h4.imageSize {
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.error h4.imageType {
+    display: none;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+div.error h4.imageRatio {
+    display: none;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+div.table img.preview {
+    width: 80%;
+    line-height: 250%;
+}
+div.table td.preview {
+    width: 60%;
+}
+
+button.deleteImg {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+  }

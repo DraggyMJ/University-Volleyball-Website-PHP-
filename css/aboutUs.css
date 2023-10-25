@@ -1,0 +1,56 @@
+div.aboutUs {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+div.aboutUs img{
+    width: 100%;
+    position: relative;
+    filter: brightness(0.5);
+}
+
+h1.title {
+  color: white;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30%;
+  width: 50%;
+  text-align: left;
+}
+
+div.about1 {
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+div.about1 img{
+  margin-left: 9%;
+  margin-right: 5%;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+div.about1 p {
+  margin-top: 9%;
+}
+
+div.about2{
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+div.about2 p{
+  margin-left: 9%;
+  width: 60%;
+  float: left;
+}
+
+div.about2 img{
+  float: right;
+  margin-right: 9%;
+  margin-bottom: 5%;
+}

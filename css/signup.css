@@ -1,0 +1,144 @@
+body{
+    background-image: url('../images/signin_background.png');
+    background-color: white;
+    background-size: 100%;
+    
+}
+
+div.logo {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+div.logo img {
+    width: 15%;
+    display: block;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+div.form {
+    float: left;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(107,107,107,0.7) 5px 5px 20px;
+    width: 30%;
+    height: 60%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+
+div.form h1 {
+    margin-left: 5%;
+}
+
+div.form form {
+    margin-left: 5%;
+}
+
+div.form table{
+    width: 100%;
+    
+}
+
+div.form td{
+    padding-bottom: 5%;
+}
+
+div.form input.text {
+    width: 60%;
+    line-height: 200%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 100%;
+    outline: none;
+}
+
+div.form input.text[type=text]:focus, div.form input.text[type=password]:focus {
+    border: 3px solid black;
+}
+
+div.form input[type=submit],div.form input[type=button] {
+    height: 10%;
+    font-size: 100%;
+    background-color: #008B8B;
+    color: white;
+    border: #002929 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+div.form input[type=button] {
+    width: 20%;
+}
+
+div.form input[type=submit] {
+    width: 30%;
+}
+
+div.form input[type=submit]:hover,div.form input[type=button]:hover {
+    background-color: #005050;
+    text-decoration: none;
+}
+
+div.error {
+    color: red;
+}
+
+div.error h4.userEmpty {
+    display: none;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+div.error h4.userMore {
+    display: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+div.error h4.userInvalid {
+    display: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+div.error h4.userExist {
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.error h4.passwordEmpty {
+    display: none;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+}
+div.error h4.passwordSame {
+    display: none;
+    margin-left: -2%;
+}
+div.error h4.passwordMore {
+    display: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.visibility {
+    color: gray;
+}
+
+a.login {
+    margin-left: 30%;
+    transition: 0.2s background-color;
+    color: blue;
+}
+
+a.login:hover {
+    background-color: #b2ffff;
+    color: black;
+}

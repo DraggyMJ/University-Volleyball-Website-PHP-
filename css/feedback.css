@@ -1,0 +1,85 @@
+div.title h1{
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 15%;
+}
+
+div.feedback h3{
+    margin-top: 5%;
+}
+
+div.feedback {
+    float: left;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(107,107,107,0.7) 5px 5px 20px;
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+div.feedback form {
+    margin-left: 5%;
+}
+
+div.feedback textarea.desc {
+    width: 95%;
+    height: 250px;
+    line-height: 120%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 100%;
+    outline: none;
+    resize: none;
+    font-family: Verdana, sans-serif;
+}
+
+div.feedback textarea.desc:focus{
+    border: 3px solid black;
+}
+
+div.feedback input[type=submit],div.feedback input[type=button] {
+    height: 8%;
+    font-size: 100%;
+    background-color: #00728b;
+    color: white;
+    border: #002929 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 3%;
+}
+
+div.feedback input[type=button] {
+    width: 10%;
+}
+
+div.feedback input[type=submit] {
+    width: 30%;
+}
+
+div.feedback input[type=submit]:hover,div.feedback input[type=button]:hover {
+    background-color: #004858;
+    text-decoration: none;
+}
+
+div.error{
+    color:red;
+}
+
+div.error h4.feedbackEmpty{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: none;
+}
+
+div.error h4.feedbackMore{
+    margin-left: 28%;
+    margin-right: 28%;
+    display: none;
+}

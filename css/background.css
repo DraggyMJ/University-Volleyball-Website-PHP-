@@ -1,0 +1,230 @@
+/*header design*/
+        html {
+            height: auto;
+            width: 100%;
+            background: white;
+            font-family: Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            margin: 0px auto; 
+        }
+        header.user{
+            float: left;
+            background-color: #008B8B;  
+            width: 100%;
+            height: auto;
+            clear: both;
+        }
+        header.admin{
+            float: left;
+            background-color: #00728b;  
+            width: 100%;
+            height: auto;
+            clear: both;
+        }
+        img.header {
+            float: left;
+            width: 8%;
+            border-radius: 8px;
+            margin-left: 3%;
+            margin-bottom: 1%;
+            margin-right: 36%;
+        }
+        
+        header nav ul li a{
+            font-weight: bold;
+            font-size: 120%;
+            text-align: center;
+            line-height: 150%;
+            border-radius: 5px;
+            transition: color 0.2s;
+            transition: background-color 0.2s;
+            color: white;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        
+        header nav ul li a:hover {
+            color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(255,255,255,0.9);
+            cursor: pointer;
+        }
+        header nav ul li {
+            float: left;
+            margin-right: 1.7%;
+        }
+        header::after{
+            clear: both;
+        }
+
+/*footer design*/
+div button#top.pc_top {
+     display: none;
+  }
+
+  .mobile_top{
+     display: inline-block;
+  }
+
+  footer.user {
+     clear: both;
+     background-color: #008B8B;
+     display: block;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+     height: auto;
+ }
+ footer.admin {
+    clear: both;
+    background-color: #00728b;
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+ 
+ img.footer{
+     display: block;
+     width: 10%;
+     padding: 40px 0px 0px 40px;
+     margin-left: 20px;
+     margin-right: 50px;
+     float: left;
+     border-radius: 8px;
+ }
+
+ footer ul {
+  list-style-image: url('sqpurple.gif');
+  padding-top: 20px;
+ }
+ 
+ footer nav ul li a {
+     text-decoration: none;  
+     color: white;
+     font-size: 20%;
+     display: block;
+     width: 100%;
+     transition: color 0.2s;
+  }
+
+ footer nav ul li {
+     float: left;
+     margin-left: 2%;
+  }
+ footer nav ul li a:hover {
+     color: rgba(0, 0, 0, 0.8);
+ }
+
+ footer button#top {
+  clear: both;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px white solid;
+  background-color: transparent;
+  transition: 0.2s;
+  color: white;
+  position: relative;
+  float: right;
+  margin-right: 2.8%; 
+}
+
+footer button#top a{
+  display: block;
+}
+
+footer button#top a:focus,footer button#top a:visited,footer button#top a:link  {
+   text-decoration: none;
+   color: white;
+}
+
+footer button#top:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+footer button#top h1 {
+  margin-top: 0px;
+}
+
+footer button#top a{
+text-decoration: none;
+}
+
+img.fbIcon{
+    width: 100%;
+}
+
+img.insIcon{
+    width: 100%;
+    margin-left: 2%;
+}
+
+div.website {
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+footer button#fb, footer button#ins{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px white solid;
+    background-color: transparent;
+    transition: 0.2s;
+    color: white;
+    position: relative;
+    float: right;
+    margin-right: 5%;    
+}
+
+footer button#fb a, footer button#ins a{
+    display: block;
+}
+
+footer button#fb a:focus,footer button#fb a:visited,footer button#fb a:link  {
+    text-decoration: none;
+    color: white;
+}
+
+footer button#ins a:focus,footer button#ins a:visited,footer button#ins a:link  {
+    text-decoration: none;
+    color: white;
+}
+
+footer button#fb:hover {
+    cursor: pointer;
+    background-color: rgba(66, 103, 178, 0.6);
+    color: white;
+}
+
+footer button#ins:hover {
+    cursor: pointer;
+    background-color: rgba(225, 48, 108, 0.6);
+    color: white;
+}
+
+
+
+ footer div.reset {
+     clear: both;
+}
+
+ footer h2 {
+   font-size: 25px;
+ }
+

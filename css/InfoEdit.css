@@ -1,0 +1,166 @@
+div.title h1 {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+div.table {
+    display: block;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(107,107,107,0.7) 5px 5px 20px;
+}
+
+div.table form {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+div.table form table{
+    width: 100%;
+}
+
+div.table form table tr td {
+    font-size: 17px;
+    line-height: 250%;
+}
+
+div.table table tr td.small_title{
+    font-weight: bold;
+}
+
+div.table input.text {
+    width: 52%;
+    line-height: 120%;
+    transition: 0.3s border;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    font-size: 90%;
+    outline: none;
+}
+
+div.table input.user[type=submit],div.table input.user[type=button] {
+    height: 6%;
+    font-size: 100%;
+    background-color: #008B8B;
+    color: white;
+    border: #002929 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+div.table input[type=button] {
+    width: 10%;
+}
+
+div.table input[type=submit] {
+    width: 20%;
+}
+
+div.table input.user[type=submit]:hover,div.table input.user[type=button]:hover {
+    background-color: #005050;
+    text-decoration: none;
+}
+
+div.table input.text[type=text]:focus, div.table input.text[type=date]:focus, div.table input.text[type=password]:focus {
+    border: 3px solid black;
+}
+
+div.error {
+    color: red;
+}
+
+div.error h4.passwordEmpty {
+    display: none;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+div.error h4.passwordMore {
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.error h4.genderEmpty{
+    display: none;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+div.error h4.genderInvalid{
+    display: none;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+div.error h4.birthdayEmpty{
+    display: none;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+div.error h4.birthdayInvalid{
+    display: none;
+    margin-left: 37%;
+    margin-right: 37%;
+}
+
+div.error h4.birthdayLow{
+    display: none;
+    margin-left: 36.5%;
+    margin-right: 36.5%;
+}
+
+div.error h4.emailMore {
+    display: none;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+div.error h4.emailFormat {
+    display: none;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+div.error h4.phoneMore {
+    display: none;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+div.error h4.phoneFormat {
+    display: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+div.table input.admin[type=submit],div.table input.admin[type=button] {
+    height: 6%;
+    font-size: 100%;
+    background-color: #00728b;
+    color: white;
+    border: #002929 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+div.table input.admin[type=submit]:hover,div.table input.admin[type=button]:hover {
+    background-color: #004858;
+    text-decoration: none;
+}
